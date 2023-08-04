@@ -6,7 +6,7 @@
 //
 
 import UIKit
-//import Core
+import Core
 //import Discover
 //import History
 //import Profile
@@ -24,7 +24,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         // MARK: - Load font
-//        UIFont.loadAllFonts
+        UIFont.loadAllFonts
         
         // MARK: - Setup buttom bar
 //        self.createTabBarLogin()

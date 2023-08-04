@@ -4,6 +4,9 @@
    <Group
       location = "container:"
       name = "Core Layer">
+      <FileRef
+         location = "group:core-layer/Core/Core.xcodeproj">
+      </FileRef>
    </Group>
    <FileRef
       location = "group:MainApplication/MainApplication.xcodeproj">

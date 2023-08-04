@@ -1,0 +1,6 @@
+[submodule "Core"]
+	path = core-layer/Core
+	url = git@github.com:tanakorn-dev/poc-core.git
+[submodule "FontAwesome"]
+	path = core-layer/Core/Core/Sdk/FontAwesome
+	url = git@github.com:tanakorn-dev/FontAwesome-Sdk.git

@@ -11,7 +11,23 @@
 		B79BFB4D2A7D05E50043F23F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79BFB4C2A7D05E50043F23F /* SceneDelegate.swift */; };
 		B79BFB542A7D05E60043F23F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B79BFB532A7D05E60043F23F /* Assets.xcassets */; };
 		B79BFB572A7D05E60043F23F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B79BFB552A7D05E60043F23F /* LaunchScreen.storyboard */; };
+		B79BFBBD2A7D155E0043F23F /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B79BFBBC2A7D155E0043F23F /* Core.framework */; };
+		B79BFBBE2A7D155E0043F23F /* Core.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B79BFBBC2A7D155E0043F23F /* Core.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B79BFBBF2A7D155E0043F23F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B79BFBBE2A7D155E0043F23F /* Core.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		B79BFB472A7D05E50043F23F /* MainApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MainApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -20,6 +36,7 @@
 		B79BFB532A7D05E60043F23F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B79BFB562A7D05E60043F23F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B79BFB582A7D05E60043F23F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B79BFBBC2A7D155E0043F23F /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B79BFBBD2A7D155E0043F23F /* Core.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +56,7 @@
 			children = (
 				B79BFB492A7D05E50043F23F /* MainApplication */,
 				B79BFB482A7D05E50043F23F /* Products */,
+				B79BFBBB2A7D155E0043F23F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,6 +80,14 @@
 			path = MainApplication;
 			sourceTree = "<group>";
 		};
+		B79BFBBB2A7D155E0043F23F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B79BFBBC2A7D155E0043F23F /* Core.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,6 +98,7 @@
 				B79BFB432A7D05E50043F23F /* Sources */,
 				B79BFB442A7D05E50043F23F /* Frameworks */,
 				B79BFB452A7D05E50043F23F /* Resources */,
+				B79BFBBF2A7D155E0043F23F /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -200,7 +228,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -254,7 +282,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
