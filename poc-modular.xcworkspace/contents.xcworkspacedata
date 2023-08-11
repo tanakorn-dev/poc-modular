@@ -3,6 +3,20 @@
    version = "1.0">
    <Group
       location = "container:"
+      name = "Application Layer">
+      <FileRef
+         location = "group:application-layer/Discover/Discover.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:"
+      name = "Communication Layer">
+      <FileRef
+         location = "group:communication-layer/UseCase/UseCase.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:"
       name = "Core Layer">
       <FileRef
          location = "group:core-layer/Core/Core.xcodeproj">

@@ -4,3 +4,9 @@
 [submodule "FontAwesome"]
 	path = core-layer/Core/Core/Sdk/FontAwesome
 	url = git@github.com:tanakorn-dev/FontAwesome-Sdk.git
+[submodule "Discover"]
+	path = application-layer/Discover
+	url = git@github.com:tanakorn-dev/pic-discover.git
+[submodule "UseCase"]
+	path = communication-layer/UseCase
+	url = git@github.com:tanakorn-dev/poc-usecase.git
